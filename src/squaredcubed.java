@@ -53,9 +53,11 @@ public class squaredcubed {
 		
 
 	}
-		public static int getCubes(int input) {
+	//method to calculate cubed values	
+	public static int getCubes(int input) {
 			
-		    int result = (int) Math.pow(input, 3);
+		//explicit casting of double into integer
+		    int result = (int) Math.pow(input, 3); 
 			
 			return result;  
 			
